@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'Counter_App_With_Riverpod/home_screen.dart';
+import 'Favourite_App_Riverpod/home_screen.dart';
 import 'Handle_Multiple_State_With_State_Provider/home_screen.dart';
 import 'Simple_Provider/simple_provider.dart';
 import 'State_Notifier_Provider/home_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: .fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: const HomeScreenToDo(),
+        home: const HomeScreenFavouriteApp(),
       ),
     );
   }
